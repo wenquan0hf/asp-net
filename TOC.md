@@ -10,14 +10,14 @@
 - [ASP.NET - Basic Controls](basic_controls.md)  王鑫
 - [ASP.NET - Directives](directives.md)  王鑫
 - [ASP.NET - Managing State](managing_state.md)  王鑫
-- [ASP.NET - Validators](validators.md) 苗帅
-- [ASP.NET - Database Access](database_access.md) 苗帅
-- [ASP.NET - ADO.net](ado_net.md) 苗帅
-- [ASP.NET - File Uploading](file_uploading.md) 苗帅
-- [ASP.NET - Ad Rotator](ad_rotator.md) 牛子健
-- [ASP.NET - Calendars](calenders.md) 牛子健
-- [ASP.NET - Multi Views](multi_views.md) 牛子健
-- [ASP.NET - Panel Controls](panel_controls.md) 牛子健
+- [ASP.NET - Validators](validators.md) 苗帅 -- 待校对
+- [ASP.NET - Database Access](database_access.md) 苗帅 -- 待校对
+- [ASP.NET - ADO.net](ado_net.md) 苗帅 -- 待校对
+- [ASP.NET - File Uploading](file_uploading.md) 苗帅 -- 待校对
+- [ASP.NET - Ad Rotator](ad_rotator.md) 牛子健 -- 待校对
+- [ASP.NET - Calendars](calenders.md) 牛子健 -- 待校对
+- [ASP.NET - Multi Views](multi_views.md) 牛子健 -- 待校对
+- [ASP.NET - Panel Controls](panel_controls.md) 牛子健 -- 待校对
 - [ASP.NET - AJAX Control](control.md) 黄偲琪
 - [ASP.NET - Data Sources](data_sources.md) 黄偲琪
 - [ASP.NET - Data Binding](data_binding.md) 黄偲琪
