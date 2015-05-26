@@ -24,10 +24,10 @@
 - [ASP.NET - Custom Controls](custom_controls.md) 黄偲琪
 - [ASP.NET - Personalization](personalization.md) 黄偲琪
 - [ASP.NET - Error Handling](error_handling.md) 黄偲琪
-- [ASP.NET - Debugging](debugging.md) 于洋
-- [ASP.NET - LINQ](linq.md) 于洋
-- [ASP.NET - Security](security.md) 于洋
-- [ASP.NET - Data Caching](data_caching.md) 于洋
+- [ASP.NET - Debugging](debugging.md) 于洋 -- 待校对
+- [ASP.NET - LINQ](linq.md) 于洋 -- 待校对
+- [ASP.NET - Security](security.md) 于洋 -- 待校对
+- [ASP.NET - Data Caching](data_caching.md) 于洋 -- 待校对
 - [ASP.NET - Web Services](web_services.md) 于倩
 - [ASP.NET - Multi Threading](multi_threading.md) 于倩
 - [ASP.NET - Configuration](configuration.md) 于倩
