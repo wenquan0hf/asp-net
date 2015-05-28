@@ -1,9 +1,9 @@
-- [ASP.NET - Introduction](introduction.md)  赵洁
-- [ASP.NET - Environment](environment_setup.md)  赵洁
-- [ASP.NET - Life Cycle](life_cycle.md)  赵洁
-- [ASP.NET - First Example](first_example.md)  赵洁
-- [ASP.NET - Event Handling](event_handling.md)  周思宇
-- [ASP.NET - Server Side](server_side.md)  周思宇
+- [ASP.NET - Introduction](introduction.md)  赵洁 -- 待校对
+- [ASP.NET - Environment](environment_setup.md)  赵洁 -- 待校对
+- [ASP.NET - Life Cycle](life_cycle.md)  赵洁 -- 待校对
+- [ASP.NET - First Example](first_example.md)  赵洁 -- 待校对
+- [ASP.NET - Event Handling](event_handling.md)  周思宇 -- 待校对
+- [ASP.NET - Server Side](server_side.md)  周思宇 -- 待校对
 - [ASP.NET - Server Controls](server_controls.md)  周思宇
 - [ASP.NET - HTML Server](html_server.md)  周思宇
 - [ASP.NET - Client Side](client_side.md)  王鑫
