@@ -8,6 +8,7 @@ ASP.NET 允许存取和使用下列数据源：
 - Flat files  
 
 ASP.NET 隐藏了复杂的数据存取过程并且提供了更为高级的类和对象，通过他们数据可以更容易的存取。这些类隐藏了所有的连接，数据存取，数据检索和数据操纵的复杂的代码。  
+
 ADO.NET 技术提供了各种 ASP.NET 控件对象和后台数据之间的桥梁。在本指导中，我们着眼于数据存取并且简单的介绍数据。  
 
 ## 检索和显示数据
@@ -18,7 +19,9 @@ ADO.NET 技术提供了各种 ASP.NET 控件对象和后台数据之间的桥梁
 - **数据显示控制** - 这将约束和显示数据并且允许操作数据。
 
 我们将在以后详细探讨数据约束和数据源控制。在本节中，我们将应用 SqlDataSource 控件存取数据。在本章用 GridView 控件显示和操作数据。  
+
 我们也会应用 Access 数据库，它包含了市场上有的 .Net 书籍的细节信息。将我们的数据库命名为 ASPDotNetStepByStep.mdb 并且我们将应用名为 DotNetReferences 的数据表。  
+
 这张表包含了以下栏目：ID、Title、AuthorFirstName、AuthorLastName、Topic 和 Publisher。  
 下图是这个数据表的截图：  
 
@@ -36,13 +39,14 @@ ADO.NET 技术提供了各种 ASP.NET 控件对象和后台数据之间的桥梁
 
 **（3）**点击 New Connection 按钮建立数据库连接。  
 
-![](
-images/connection_with_database.jpg)  
+![](images/connection_with_database.jpg)  
+
 **（4）**连接一旦建立，你就可以保存他们以备以后应用。下一步，你会被要求设置 select statement：  
 
 ![](images/select_statement.jpg)  
 
 **（5）**选择好 columns 中的项目后点击 next 按钮完成剩余步骤。观察 WHERE, ORDER BY, 和 Advanced 按钮。这些按钮允许你执行 where 子句，order by 子句并且分别指定 SQL 中的插入，更新和删除命令。这样你就可以对数据进行操作了。  
+
 **（6）**在表中添加 GridView 控件。选择数据源并且用 AutoFormat 选项生成控件。  
 
 ![](images/autoformat.jpg)  
