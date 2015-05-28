@@ -1,6 +1,7 @@
 # ASP.NET - 验证器
 
 ASP.NET 的有效性控制是验证用户输入的数据从而确保那些无用的、未经授权的、矛盾的数据不能被存储。  
+
 ASP.NET 提供了如下几个方面的验证控制：  
 
 - 必要字段验证器（RequiredFieldValidator）
@@ -30,6 +31,7 @@ ASP.NET 提供了如下几个方面的验证控制：
 ## RequiredFieldValidator 控制 
 
 RequiredFieldValidator 控制确保必填字段不为空。它主要和文本框绑定使得用户向文本框输入。  
+
 该控制的语法如下：  
 
 ```
@@ -44,6 +46,7 @@ RequiredFieldValidator 控制确保必填字段不为空。它主要和文本框
 ## RangeValidator 控件 
 
 RangeValidator 控件负责核实输入的至是否在预设的范围之内。  
+
 它有三种特定属性：
 
 |**属性**   | **描述**         |
@@ -65,6 +68,7 @@ RangeValidator 控件负责核实输入的至是否在预设的范围之内。
 ## CompareValidator 控件
 
 CompareValidator 控件根据输入到另一个输入控件中的值、常数值或正确的数据类型来验证值。  
+
 它有以下的特定属性：  
 
 |**属性**   | **描述**         |
@@ -86,6 +90,7 @@ CompareValidator 控件根据输入到另一个输入控件中的值、常数值
 ## RegularExpressionValidator 控件 
 
 RegularExpressionValidator 控件允许通过和正则表达式匹配来确定输入的有效性。正则表达式在 ValidationExpression 的属性里设置。  
+
 下表总结了正则表达式通常所用到的语法结构：  
 
 |**转义字符**   | **描述**         |
@@ -136,8 +141,11 @@ RegularExpressionValidator 控件允许通过和正则表达式匹配来确定�
 ## CustomValidator 控件 
 
 CustomValidator 控件允许编写客户端和服务器端特定的验证例程来验证值。  
+
 客户端验证通过 ClientValidationFunction 来适当的完成。客户端验证例程应该用浏览器吗、能够识别的脚本语言来编写，例如 JavaScript 或者 VBScript。  
+
 服务器端的验证例程应该由控件的 ServerValidate 事件处理器来生成。服务器端的验证例程应该用任意的 .Net 语言来编写，例如：C# 或 VB.Net。  
+
 这种控件的基本语法如下：  
 
 ```
@@ -150,6 +158,7 @@ CustomValidator 控件允许编写客户端和服务器端特定的验证例程�
 ## ValidationSummary 控件 
 
 ValidationSummary 控件并不会进行任何验证但是会在页面显示一个所有的错误的总结。这个总结可以显示出所有失败的验证控件的错误信息属性的值。  
+
 下面两个相互包含的属性列表列出来错误信息： 
 
 - **ShowSummary**：用特殊格式显示错误信息。
@@ -165,14 +174,16 @@ ValidationSummary 控件并不会进行任何验证但是会在页面显示一�
 ## 验证组 
 
 复杂的页面会在不同的层面有不同的信息组。在这种情况下，不同的组就要有不同的验证这种情况可以用验证组来解决。  
+
 创建一个验证组，你必须通过设置输入控件和验证控件的 ValidationGroup 属性从而把它们放到相同的逻辑组中。  
 
 ## 例子 
 
 下面这个例子描述了一个将由全校学生填的表格，这个表格分为四部分是用来竞选校长的。在这里，我们将用验证控件来验证用户所输入的。  
+
 这是在设计视图下的形式：  
 
-![](http://www.tutorialspoint.com/asp.net/images/form_in_design_view.jpg)  
+![](images/form_in_design_view.jpg)  
 
 这部分内容的代码如下：  
 
