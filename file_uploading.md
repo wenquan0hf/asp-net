@@ -6,8 +6,11 @@ ASP.NET 包含两个控件可以使用户向网页服务器上传文件。一旦
 - **FileUpload** - ASP.NET 网页控件  
 
 两种控件都允许文件上传，但是 FileUpload 控件自动设置编码格式，然而 HtmlInputFile 控件并不会这样。  
+
 本指导中，我们将应用 FileUpload 控件。这个控件允许用户预览选择将要上传的文件，它提供了一个预览按钮和一个可以输入文件名的文本框。  
+
 一旦用户在文本框中输入文件名或者预览文件，FileUpload 控件的 SaveAs 方法就会将文件保存到硬盘。  
+
 FileUpload 的基本语法如下：  
 
 ```
@@ -25,6 +28,7 @@ FileUpload 类是从 WebControl 类中得出的，并且它继承了它的所有
 |PostedFile|返回一个关于已上传文件的参考|  
 
 发布的文件以 HttpPostedFile 形式的对象进行封装，这个对象可以通过 FileUpload 类的 PostedFile 属性被存取。  
+
 HttpPostedFile 类具有以下常用的属性：  
 
 |**属性**   | **描述**         |  
@@ -37,6 +41,7 @@ HttpPostedFile 类具有以下常用的属性：
 ## 例子 
 
 下面的例子说明了 FileUpload 控件以及它的属性。这个表格有一个 FileUpload 控件以及一个保存按钮和一个现实文件名称、类型、长度的标签控件。  
+
 在设计模式下，表格如下图所示：  
 
 ![](images/asp.net_fileupload.jpg)  
