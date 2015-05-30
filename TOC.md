@@ -28,10 +28,10 @@
 - [ASP.NET - LINQ](linq.md) 于洋 -- 初校完成
 - [ASP.NET - Security](security.md) 于洋 -- 初校完成
 - [ASP.NET - Data Caching](data_caching.md) 于洋 -- 初校完成
-- [ASP.NET - Web Services](web_services.md) 于倩
-- [ASP.NET - Multi Threading](multi_threading.md) 于倩
-- [ASP.NET - Configuration](configuration.md) 于倩
-- [ASP.NET - Deployment](deployment.md)  于倩
+- [ASP.NET - Web Services](web_services.md) 于倩 -- 待校对
+- [ASP.NET - Multi Threading](multi_threading.md) 于倩 -- 待校对
+- [ASP.NET - Configuration](configuration.md) 于倩 -- 待校对
+- [ASP.NET - Deployment](deployment.md)  于倩 -- 待校对
  
 ## 原文地址
 
