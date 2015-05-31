@@ -4,12 +4,12 @@
 - [ASP.NET - First Example](first_example.md)  赵洁 -- 初校完成
 - [ASP.NET - Event Handling](event_handling.md)  周思宇 -- 初校完成
 - [ASP.NET - Server Side](server_side.md)  周思宇 -- 初校完成
-- [ASP.NET - Server Controls](server_controls.md)  周思宇
-- [ASP.NET - HTML Server](html_server.md)  周思宇
-- [ASP.NET - Client Side](client_side.md)  王鑫
-- [ASP.NET - Basic Controls](basic_controls.md)  王鑫
-- [ASP.NET - Directives](directives.md)  王鑫
-- [ASP.NET - Managing State](managing_state.md)  王鑫
+- [ASP.NET - Server Controls](server_controls.md)  周思宇 -- 待校对
+- [ASP.NET - HTML Server](html_server.md)  周思宇 -- 待校对
+- [ASP.NET - Client Side](client_side.md)  王鑫 -- 待校对
+- [ASP.NET - Basic Controls](basic_controls.md)  王鑫 -- 待校对
+- [ASP.NET - Directives](directives.md)  王鑫 -- 待校对
+- [ASP.NET - Managing State](managing_state.md)  王鑫 -- 待校对
 - [ASP.NET - Validators](validators.md) 苗帅 -- 初校完成
 - [ASP.NET - Database Access](database_access.md) 苗帅 -- 初校完成
 - [ASP.NET - ADO.net](ado_net.md) 苗帅 -- 初校完成
