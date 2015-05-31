@@ -1,34 +1,27 @@
 # ASP.NET – 服务器端
 
-我们已经研究了页面生命周期和一个页面如何包含不同的控件。页面本身作为一个控制对象被实例化。所有的 web 表单基本上是 ASP.NET 页面类的实例。页面类有以下极其有用的属性，与内部对象所对应。
+我们已经研究了页面生命周期和一个页面如何包含不同的控件。页面本身作为一个控制对象被实例化。所有的 web 表单基本上是 ASP.NET 页面类的实例。页面类有以下极其有用的属性，与内部对象所对应：
 
-•	会话
+- 会话
+- 应用程序
+- 缓存
+- 请求
+- 响应
+- 服务器
+- 用户
+- 跟踪
 
-•	应用程序
+我们会在适当的时间里讨论每一个对象。在本教程中我们将会探索 Server 对象，Request 对象和 Response 对象。
 
-•	缓存
-
-•	请求
-
-•	响应
-
-•	服务器
-
-•	用户
-
-•	跟踪
-
-我们会在适当的时间里讨论每一个对象。在本教程中我们将会探索服务器对象，请求对象和响应对象。
-
-## 服务器对象
+## Server 对象
 
 ASP.NET 中的服务器对象是 System.Web.HttpServerUtility 类的一个实例。The HttpServerUtility 类提供了大量的属性和方法来执行不同的工作。
 
-### 服务器对象的属性和方法
+### Server 对象的属性和方法
 
 HttpServerUtility 类的方法和属性通过由 ASP.NET 提供的内部服务器对象公开的。
 
-以下表格提供了 The HttpServerUtility 类一系列的属性。
+以下表格提供了 HttpServerUtility 类一系列的属性。
 
 |属性|描述|
 |:---|:---|
@@ -56,13 +49,13 @@ HttpServerUtility 类的方法和属性通过由 ASP.NET 提供的内部服务�
 |MapPath|返回与指定的虚拟服务器上的文件路径相对应的物理路径。|
 |Transfer|在当前应用程序上转移执行到另一个 web 页面。|
 
-## 请求对象
+## Request 对象
 
 请求对象是 System.Web.HttpRequest 类的一个实例。它代表了 HTTP 请求的值和属性，使页面加载到浏览器中。
 
 此对象所呈现的信息被封装在更高级别的抽象中（web 控件模型）。然而，这个对象可以帮助检查一些信息，例如客户端浏览器和信息记录程序。
 
-### 请求对象的属性和方法
+### Request 对象的属性和方法
 
 下表提供了请求对象一些值得注意的属性：
 
@@ -76,12 +69,12 @@ HttpServerUtility 类的方法和属性通过由 ASP.NET 提供的内部服务�
 |ContentType|获取或设置传入请求的 MIME 内容类型。|
 |Cookies|获取客户端发送的 cookies 集合。|
 |FilePath|获取当前请求的真实路径。|
-|Files|以多部分的MIME格式获取客户端上传文件的集合。|
+|Files|以多部分的 MIME 格式获取客户端上传文件的集合。|
 |Form	|获取表单变量的集合。|
 |Headers|获取 HTTP 标题的集合。|
 |HttpMethod|获取用户使用的 HTTP 数据转移方法（如 GET，POST，或者 HEAD）|
-|InputStream|获取传入的 HTTP的实体内容。|
-|IsSecureConnection|获取一个值，该值指示HTTP连接是否使用安全套接字（即HTTPS）。|
+|InputStream|获取传入的 HTTP 的实体内容。|
+|IsSecureConnection|获取一个值，该值指示 HTTP 连接是否使用安全套接字（即HTTPS）。|
 |QueryString|获取 HTTP 询问字符串变量的集合。|
 |RawUrl|获取当前请求的原始 URL。|
 |RequestType|获取或设置由用户使用的 HTTP 数据转移方法（GET 或者 POST）。|
@@ -90,7 +83,7 @@ HttpServerUtility 类的方法和属性通过由 ASP.NET 提供的内部服务�
 |Url|获取关于现有请求的 URL 的信息。|
 |UrlReferrer|获取关于与现有 URL 相链接的客户端之前的请求的 URL 信息。|
 |UserAgent|获取客户端浏览器的原始用户代理字符串。|
-|UserHostAddress|获取远程客户机的IP主机地址。|
+|UserHostAddress|获取远程客户机的 IP 主机地址。|
 |UserHostName|获取远程客户机的 DNS 名称。|
 |UserLanguages|获取客户端语言首选项的排序字符串数组。|
 
@@ -105,17 +98,17 @@ HttpServerUtility 类的方法和属性通过由 ASP.NET 提供的内部服务�
 |MapPath(String)|将指定的真实路径绘制成一个物理路径。|
 |SaveAs|在硬盘中存为一个 HTTP 请求。|
 |ToString|返回一个代表现有对象的字符串。|
-|ValidateInput|导致验证发生，通过访问Cookies，Form，QueryString 属性的集合。|
+|ValidateInput|导致验证发生，通过访问 Cookies，Form，QueryString 属性的集合。|
 
-## 响应对象
+## Response 对象
 
 响应对象代表了服务器对于用户请求的响应。它是 System.Web.HttpResponse 类的一个实例。
 
 在 ASP.NET 中，响应对象在给用户发送 HTML 文本的过程中不扮演任何重要的角色，因为服务器端控件有嵌套的、面向对象的方法来自我呈现。
 
-然而，HttpResponse 对象提供了一些重要的功能，比如 cookie 特点和 Redirect() 方法。 Response.Redirect() 方法允许将用户转移到另一个页面，在应用程序内部或应用程序外部均可。它需要一个往返旅行。
+然而，HttpResponse 对象提供了一些重要的功能，比如 cookie 特点和 Redirect() 方法。 Response.Redirect() 方法允许将用户转移到另一个页面，在应用程序内部或应用程序外部均可。它需要一个往返过程。
 
-### 响应对象的属性和方法
+### Response 对象的属性和方法
 
 下表提供了一些响应对象值得注意的属性：
 
@@ -125,7 +118,7 @@ HttpServerUtility 类的方法和属性通过由 ASP.NET 提供的内部服务�
 |BufferOutput|获取或设置一个值，表名是否缓冲输出，并在完整页面结束进城后将其发送。|
 |Charset|获取或设置输出流的 HTTP 字符集。|
 |ContentEncoding|获取或设置输出流的 HTTP 字符集。|
-|ContentType|获取或设置输出流的HTTP MIME 类型。|
+|ContentType|获取或设置输出流的 HTTP MIME 类型。|
 |Cookies|获取相应 cookie 集合。|
 |Expires|获取或设置一个浏览器上缓存的页面在到期前的分钟数。|
 |ExpiresAbsolute|获取或设置从缓存中移除缓存信息的绝对日期和时间。|
@@ -145,7 +138,7 @@ HttpServerUtility 类的方法和属性通过由 ASP.NET 提供的内部服务�
 
 |方法|描述|
 |:---|:---|
-|AddHeader|给输出流添加一个 HTTP 标题。提供 AddHeader是为了 ASP 早期版本的兼容性。|
+|AddHeader|给输出流添加一个 HTTP 标题。提供 AddHeader 是为了 ASP 早期版本的兼容性。|
 |AppendCookie|基础设施为内部 cookie 集合添加一个 HTTP cookie。|
 |AppendHeader|给输出流添加一个 HTTP 标题。|
 |AppendToLog|将自定义日志信息添加到 InterNET 信息服务（IIS）日志文件。|
