@@ -7,7 +7,7 @@
 
 machine.config 文件包含所有支持设置项的默认和设置机器的具体值。机器的设置是由系统管理员，且应用程序通常不能访问这个文件。
   
-然而，一个应用程序，可以通过它的根文件夹中创建 web.config 文件覆盖默认值。web.config 文件是 machine.config 文件的一个子集。  
+然而，一个应用程序，可以通过在它的根文件夹中创建 web.config 文件覆盖默认值。web.config 文件是 machine.config 文件的一个子集。  
 
 如果应用程序包含子目录，那么它可以为每个文件夹定义一个 web.config 文件。每个配置文件的范围是用一个分层的自上而下的方式确定。
   
@@ -230,8 +230,8 @@ system.web 元素为 ASP.NET 配置节指定了根元素，并且包含了配置
 它用于配置用于加密和解密数据的表单验证 Cookie 的密钥。  
 
 它还允许配置验证密钥对视图状态数据和 Forms 身份验证票证执行消息认证检查。基本的语法是： 
-``` 
 
+``` 
     <machineKey validationKey="AutoGenerate,IsolateApps" [String]
        decryptionKey="AutoGenerate,IsolateApps" [String]
        validation="HMACSHA256" [SHA1 | MD5 | 3DES | AES | HMACSHA256 | 
