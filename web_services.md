@@ -1,6 +1,7 @@
-# ASP.NET -web 服务
+# ASP.NET - Web 服务
 
-Web服务是一个基于网络的功能，可被 web 应用通过 web 网络协议获取。web 服务开发主要包含以下三方面：  
+Web 服务是一个基于网络的功能，可被 web 应用通过 web 网络协议获取。web 服务开发主要包含以下三方面：  
+
 - 创建 web 服务  
 - 创建代理服务器  
 - 使用 web 服务
@@ -16,7 +17,7 @@ Web服务是一个基于网络的功能，可被 web 应用通过 web 网络协�
 
 采取以下步骤创建该服务： 
  
-**步骤 (1)** : 在 Visual Studio 中选择 文件 -> 新建 -> web 网站，然后选择“ASP.NET Web服务”。
+**步骤 (1)** : 在 Visual Studio 中选择 File -> New -> Web Site，然后选择 ASP.NET Web Service。
  
 **步骤 (2)** : 一个名为 Service.asmx 的 web 服务文件和它的代码被隐藏，Service.cs 会在这个工程的 App_Code 路径下被创建。 
  
@@ -24,8 +25,10 @@ Web服务是一个基于网络的功能，可被 web 应用通过 web 网络协�
  
 **步骤 (4)** : .asmx 文件简化了一个 WebService 指令如下：
       
-`<%@ WebService Language="C#" CodeBehind="~/App_Code/StockService.cs" 
-Class="StockService" %> ` 
+```
+<%@ WebService Language="C#" CodeBehind="~/App_Code/StockService.cs" 
+Class="StockService" %> 
+```
     
 **步骤 (5)** : 打开 StockService.cs 文件，在该文件里生成的代码是 Hello World 服务的基础代码。默认的 web 服务代码如下:  
 
@@ -139,19 +142,21 @@ Class="StockService" %> `
 
 **步骤 (7)** : 运行 web 服务应用给出了一个 web 服务测试页面，我们可以在该页面测试服务方法。
   
-![](http://www.tutorialspoint.com/asp.net/images/stock_service.jpg)  
+![](images/stock_service.jpg)  
 
 **步骤 (8)** : 点击一个方法名字，确认它是否在正确运行。  
-![](http://www.tutorialspoint.com/asp.net/images/get_name_service.jpg)
+
+![](images/get_name_service.jpg)
 
 **步骤 (9)** : 为检测 GetName 方法，提供已经被定义的股票标签中的一个，正确的话会返回相关股票的名称。
 
 ![](http://www.tutorialspoint.com/asp.net/images/name_of_stock.jpg)
 
-## 使用Web服务
-为使用该web服务，我们在相同的解决方案(Solution)下创建一个网站，只需在解决方案管理器上右击该解决方案名字即可，web 服务调用的网页应具有一个控制管理以显示返回的结果和两个控制按钮一个用于返回另一个用于开始调用服务。
+## 使用 Web 服务
+为使用该 web 服务，我们在相同的解决方案(Solution)下创建一个网站，只需在解决方案管理器上右击该解决方案名字即可，web 服务调用的网页应具有一个控制管理以显示返回的结果和两个控制按钮一个用于返回另一个用于开始调用服务。
   
-web应用的文件内容如下：  
+web 应用的文件内容如下：  
+
 ```
     <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="wsclient._Default" %>
     
@@ -190,6 +195,7 @@ web应用的文件内容如下：
 ```
 
 web 应用的代码如下：
+
 ```
     using System;
     using System.Collections;
@@ -243,6 +249,7 @@ web 应用的代码如下：
 当此服务器响应并返回一个 SOAP 包给客户端时，代理服务器将一切呈现给客户端应用程序。
   
 使用 btnservice_click 调用 Web 服务之前，Web 引用应该被添加到应用程序。这将透明地创建一个代理类，可由 btnservice_click 事件使用。
+
 ```
     protected void btnservice_Click(object sender, EventArgs e)
     {
@@ -254,18 +261,20 @@ web 应用的代码如下：
 
 采取以下步骤创建代理：  
   
-**步骤 (1)** : 在解决方案管理器（SolutionExplorer）的 web 应用入口处右击选择'添加 web 引用'。  
+**步骤 (1)** : 在解决方案管理器（SolutionExplorer）的 web 应用入口处右击选择 ‘Add Web Reference’。  
 
-![](http://www.tutorialspoint.com/asp.net/images/add_web_reference.jpg)
+![](images/add_web_reference.jpg)
 
-**步骤 (2)** : 选择'此解决方案中的 web 服务'，会返回我们编写的股票服务引用。
+**步骤 (2)** : 选择 ‘Web Services in this solution’，会返回我们编写的股票服务引用。
 
-![](http://www.tutorialspoint.com/asp.net/images/select_web_services.jpg)  
+![](images/select_web_services.jpg)  
 
-**步骤 (3)** : 点击该服务打开测试页面，创建代理时默认为'localhost'，当然你也可以进行重命名。点击'添加引用'来实现向客户端应用程序添加一个代理。 
+**步骤 (3)** : 点击该服务打开测试页面，创建代理时默认为 ‘localhost’，当然你也可以进行重命名。点击 ‘Add Reference’ 来实现向客户端应用程序添加一个代理。 
  
-![](http://www.tutorialspoint.com/asp.net/images/stock_service2.jpg)  
+![](images/stock_service2.jpg)  
 
 在代码中加入以下语句使之包含该代理：  
 
-     using localhost;
+```
+using localhost;
+```
