@@ -1,9 +1,9 @@
-- [ASP.NET - Introduction](introduction.md)  赵洁 -- 待校对
-- [ASP.NET - Environment](environment_setup.md)  赵洁 -- 待校对
-- [ASP.NET - Life Cycle](life_cycle.md)  赵洁 -- 待校对
-- [ASP.NET - First Example](first_example.md)  赵洁 -- 待校对
-- [ASP.NET - Event Handling](event_handling.md)  周思宇 -- 待校对
-- [ASP.NET - Server Side](server_side.md)  周思宇 -- 待校对
+- [ASP.NET - Introduction](introduction.md)  赵洁 -- 初校完成
+- [ASP.NET - Environment](environment_setup.md)  赵洁 -- 初校完成
+- [ASP.NET - Life Cycle](life_cycle.md)  赵洁 -- 初校完成
+- [ASP.NET - First Example](first_example.md)  赵洁 -- 初校完成
+- [ASP.NET - Event Handling](event_handling.md)  周思宇 -- 初校完成
+- [ASP.NET - Server Side](server_side.md)  周思宇 -- 初校完成
 - [ASP.NET - Server Controls](server_controls.md)  周思宇
 - [ASP.NET - HTML Server](html_server.md)  周思宇
 - [ASP.NET - Client Side](client_side.md)  王鑫
@@ -28,10 +28,10 @@
 - [ASP.NET - LINQ](linq.md) 于洋 -- 初校完成
 - [ASP.NET - Security](security.md) 于洋 -- 初校完成
 - [ASP.NET - Data Caching](data_caching.md) 于洋 -- 初校完成
-- [ASP.NET - Web Services](web_services.md) 于倩 -- 待校对
-- [ASP.NET - Multi Threading](multi_threading.md) 于倩 -- 待校对
-- [ASP.NET - Configuration](configuration.md) 于倩 -- 待校对
-- [ASP.NET - Deployment](deployment.md)  于倩 -- 待校对
+- [ASP.NET - Web Services](web_services.md) 于倩 -- 初校完成
+- [ASP.NET - Multi Threading](multi_threading.md) 于倩 -- 初校完成
+- [ASP.NET - Configuration](configuration.md) 于倩 -- 初校完成
+- [ASP.NET - Deployment](deployment.md)  于倩 -- 初校完成
  
 ## 原文地址
 
