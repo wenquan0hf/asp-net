@@ -125,7 +125,7 @@ DataAdapter 对象扮演 DataSet 对象与数据库之间的中间者。这有�
 
 ## DataReader 对象
 
-DataReader 对象是 DataSet 和 DataAdapter 结合的备选。这个对象提供了对数据库中的数据记录的定向的存取。这些对象只适合只读存取，例如填充一个列表然后切断连接。  
+DataReader 对象是 DataSet 和 DataAdapter 结合的备选。这个对象提供了对数据库中的数据记录的定向的存取。这些对象只适合只读存取，例如填充一个列表然后断开连接。  
 
 ## DbCommand 和 DbConnection 对象
 
