@@ -117,6 +117,7 @@ public void OnLogin(Object src, EventArgs e)
 **第六步：**在欢迎页面的登录部分设置一个登录状态控件。包含两个标准框：LoggedIn 和 LoggedOut。  
 
 LoggedIn 有查看已经登录用户的选项，LoggedOut 内有查看已经退出用户的选项。你可以在属性窗口里改变登录和退出的文本属性。  
+
 ![login_status_control.jpg](images/login_status_control.jpg)  
 
 **第七步：**在 LoginStatus 控件的下面设置一个 LoginView 控件。你可以在此设置一些能反应用户是否已经登录的其他文本或其他控件（如超链接、按钮等）。  
