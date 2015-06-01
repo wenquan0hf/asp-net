@@ -18,7 +18,7 @@ ASP.NET 运行时控制一个页面实例和其状态的关联。一个 ASP.NET 
 
 页面指令为页面设置运行环境。@Page 指令定义了使用 ASP.NET 页面解析器和编译器的特殊页面属性。页面指令指定应该如何处理页面，并指定对页面需要采取的假设。
 
-它允许导入命名空间、加载程序集和注册新的控件，包括自定义标记名称和名称空间前缀。
+它允许导入命名空间、加载程序集和注册新的控件，包括自定义标记名称和命名空间前缀。
 
 ## 编码区段
 
@@ -79,7 +79,7 @@ ASP.NET 运行时控制一个页面实例和其状态的关联。一个 ASP.NET 
 
 ![image](images/asp.net_first_example2.jpg)
 
-内容文件会自动生成。你只需添加的是 Button1_Click 路线，即如下所示：
+内容文件会自动生成。你只需添加的是 Button1_Click 代码，即如下所示：
 
 ```
 protected void Button1_Click(object sender, EventArgs e)
@@ -133,6 +133,3 @@ protected void Button1_Click(object sender, EventArgs e)
 通过右键点击设计视图来执行此示例，并且从弹出菜单中选择 ‘View in Browser’。这将生成以下结果：
 
 ![image](images/asp.net_first_example3.jpg)
-
-
-
