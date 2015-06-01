@@ -50,7 +50,7 @@ View 控制的语法是：
 |SwitchViewByIDCommandName|SwitchViewByID|
 |SwitchViewByIndexCommandName|SwitchViewByIndex|
 
-多视点控制的重要方法是：
+多视点控制的重要方法是： 
 
 |**方法**|**描述**|
 |:------------- |:-------------| 
