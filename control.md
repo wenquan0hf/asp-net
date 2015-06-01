@@ -10,7 +10,7 @@ AJAX 代表  Asynchronous JavaScript and XML。这是一项跨平台的能加速
 
 ## ScriptManager 控件  
 
-ScriptManager 控件是最重要的控件并且必须出现在页面上已让其他控件工作。  
+ScriptManager 控件是最重要的控件并且必须出现在页面上以让其他控件工作。  
 
 它有基本语法：  
 
@@ -25,7 +25,7 @@ ScriptManager 控件是最重要的控件并且必须出现在页面上已让其
 
 UpdatePanel 控件是一个容器控件并且源自 Control 类。它作为它里面的子控件的容器而运作并且不拥有它自己的接口。当它其中的一个控件触发提交回来，UpdatePanel 干预异步启动并更新部分页面。  
 
-例如，如果一个 button 控件在 update panel 内，并且它被点击了，只有update panel 内的控件将被影响，页面其他部门的控件将不会被影响。这被叫做部分提交返回或者异步提交返回。  
+例如，如果一个 button 控件在 update panel 内，并且它被点击了，只有 update panel 内的控件将被影响，页面其他部分的控件将不会被影响。这被叫做部分提交返回或者异步提交返回。  
 
 ### 例子
 
@@ -149,7 +149,8 @@ UpdateProgress 控件的语法是：
 
 ## Timer 控件  
 
-timer 控件被用来自动初始化提交返回。这可以用两种方式完成：  
+timer 控件被用来自动初始化提交返回。这可以用两种方式完成： 
+
 (1)设置 UpdatePanel 控件的 Triggers 属性。  
 
 ```
