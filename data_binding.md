@@ -53,9 +53,9 @@ BaseDataBoundControl 是一个抽象类，它通过两个抽象类继承：
 
 ## 描述性数据绑定  
 
-我们已经在之前的指南中使用 GridView 控件来使用描述性数据绑定。其他复合的能够以表格的方式展示并操作数据的 data bound 控件是  DetailsView,FormView 和 RecordList 控件。  
+我们已经在之前的指南中使用 GridView 控件来使用描述性数据绑定。其他复合的能够以表格的方式展示并操作数据的 data bound 控件是  DetailsView, FormView 和 RecordList 控件。  
 
-在下一个指南中，我们将调查解决数据库，i.e，ADO.NET 的 技术。  
+在下一个指南中，我们将研究解决数据库，i.e，ADO.NET 的 技术。  
 
 但是，数据绑定包括以下对象：  
 
