@@ -181,8 +181,3 @@ MasterType 指令指定一个类名到页面的主属性，强化其类型。
 ```
 <%@ Register Src="~/footer.ascx" TagName="footer" TagPrefix="Tfooter" %>
 ```
-
-
-
-
-
