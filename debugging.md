@@ -59,7 +59,7 @@ When Hit 菜单允许你来指定当断点命中时的动作。
 
 ![breakpoint_asp.net3.jpg](images/breakpoint_asp.net3.jpg)  
 
-## Debug 窗口  
+## Debug 窗口 
 
 Visual Studio 提供下面的 debug 窗口，其中每一个都显示一些程序信息。下表列出了一些窗口： 
 
