@@ -10,7 +10,7 @@ ASP.NET 允许用户创建控件。这些用户定义的控件被分类为：
 用户控件行为像微型　ASP.NET 页面或者网页表单，它能被许多其他页面使用。这些都是源自 System.Web.UI.UserControl 类。这些控件有下列特性：  
 
 - 它们有 .ascx 扩展。
-- 它们可能不会含有任何<html>,<body>或者<form>标签。
+- 它们可能不会含有任何 <html>, <body> 或者 <form> 标签。
 - 它们有一个 Control 指令而不是一个 Page 指令。  
 
 为了理解这个概念，让我们创建一个简单的用户控件，它将作为 web 页面的页脚使用。为了创建和使用用户控件，采取以下步骤：  
@@ -76,9 +76,11 @@ ASP.NET 允许用户创建控件。这些用户定义的控件被分类为：
 ```  
 
 当执行后，页面显示了页脚而且这个控件能在所有你的网站的页面中被使用。  
+
 ![2](images/custom_result.jpg)  
 
 观察以下：  
+
 **(1)**Register 指令为控件指定了一个标签名称和标签前缀。  
 
 ```
@@ -315,6 +317,7 @@ protected void Button1_Click(object sender, EventArgs e)
 ![7](images/checks_palindromes.jpg)  
 
 观察以下:  
+
 **(1)** 当你给自定义控件添加一个引用时，它被添加到 toolbox 并且你可以像其他控件一样从 toolbox 中直接使用它。
 
 ![8](images/custom_control_reference.jpg)  
