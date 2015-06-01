@@ -23,7 +23,7 @@ private void EventName (object sender, EventArgs e);
 - **Application_Start** - 当开启应用程序或者网页时被引发。
 - **Application_End** - 当停止应用程序或者网页时被引发。
 
-同样地，最常使用的会话事件是：
+同样的，最常使用的会话事件是：
 
 - **Session_Start** – 当用户最开始从应用程序上请求一个页面被引发。
 - **Session_End** – 当会话结束后被引发。
@@ -42,7 +42,7 @@ private void EventName (object sender, EventArgs e);
 
 ## 使用控件处理事件
 
-所有的 ASP.NET 控件作为类而实现，并且当用户对其执行一个特定的动作时，它们会引发事件。比如说，当一个用户点击了一个按钮，那就生成了 ‘Click’ 事件。对于处理事件来说，有内置属性和事件处理程序。事件处理应用程序被编码作为一个事件的回应，并且对其采取适当的行动。
+所有的 ASP.NET 控件作为类而实现，并且当用户对其执行一个特定的动作时，它们会引发事件。比如说，当一个用户点击了一个按钮，那就生成了 'Click' 事件。对于处理事件来说，有内置属性和事件处理程序。事件处理应用程序被编码作为一个事件的回应，并且对其采取适当的行动。
 
 默认情况下，Visual Studio 创建一个事件处理程序，包括处理条款的子程序。这个子句命名程序处理的控件和事件。
 
@@ -88,11 +88,11 @@ End Sub
 |SelectedIndexChanged|OnSelectedIndexChanged|下拉菜单，列表框，单选按钮列表，带复选框的列表框|
 |CheckedChanged|OnCheckedChanged|复选框，单选按钮|
 
-一些事件导致表单立即发回到服务器，这些被称为回发事件。例如，单击事件像 Button.Click。
+一些事件导致表单立即发回到服务器，这些被称为回调事件。例如，单击事件像 Button.Click。
 
-一些事件则不会被立即发回到服务器，这些被称为非回发事件。
+一些事件则不会被立即发回到服务器，这些被称为非回调事件。
 
-例如，改变事件或者选择事件，像 TextBox.TextChanged 或者 CheckBox.CheckedChanged。这些非回发事件可以通过设置它们的 AutoPostBack 属性为 true 便可立即使它们回发。
+例如，改变事件或者选择事件，像 TextBox.TextChanged 或者 CheckBox.CheckedChanged。这些非回调事件可以通过设置它们的 AutoPostBack 属性为 true 便可立即使它们回调。
 
 ## 默认事件
 
@@ -208,7 +208,3 @@ namespace eventdemo {
 执行页面。标签显示页面加载，页面初始化以及页面预览事件。点击按钮查看效果：
 
 ![image](images/asp.net_event_example.jpg)
-
-
-
-
