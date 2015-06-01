@@ -40,11 +40,12 @@ HttpPostedFile 类具有以下常用的属性：
 
 ## 例子 
 
-下面的例子说明了 FileUpload 控件以及它的属性。这个表格有一个 FileUpload 控件以及一个保存按钮和一个现实文件名称、类型、长度的标签控件。  
+下面的例子说明了 FileUpload 控件以及它的属性。这个表格有一个 FileUpload 控件以及一个保存按钮和一个真实文件名称、类型、长度的标签控件。  
 
 在设计模式下，表格如下图所示：  
 
 ![](images/asp.net_fileupload.jpg)  
+
 相关文件代码列示如下：  
 
 ```
@@ -66,6 +67,7 @@ HttpPostedFile 类具有以下常用的属性：
 ```  
 
 保存按钮的代码列示如下：  
+
 ```
 
 protected void btnsave_Click(object sender, EventArgs e)
