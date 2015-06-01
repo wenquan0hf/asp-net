@@ -43,7 +43,7 @@ ADO.NET 技术提供了各种 ASP.NET 控件对象和后台数据之间的桥梁
 
 **（4）**连接一旦建立，你就可以保存他们以备以后应用。下一步，你会被要求设置 select statement：  
 
-![](images/select_statement.jpg)  
+![](images/select_statement.jpg) 
 
 **（5）**选择好 columns 中的项目后点击 next 按钮完成剩余步骤。观察 WHERE, ORDER BY, 和 Advanced 按钮。这些按钮允许你执行 where 子句，order by 子句并且分别指定 SQL 中的插入，更新和删除命令。这样你就可以对数据进行操作了。  
 
