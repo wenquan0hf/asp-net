@@ -7,11 +7,8 @@
 ASP.NET 管理四种状态：
 
 - 视图状态
-
 - 控制状态
-
 - 会话状态
-
 - 应用程序状态
 
 ## 视图状态
@@ -22,18 +19,16 @@ ASP.NET 管理四种状态：
 
 视图状态可以对以下内容启用或者禁用：
 
-- **整个应用程序**：设置 web.config 文件中<pages>部分的 EnableViewState 属性。
-
-- **一个页面**：设置页面指令的 EnableViewState 属性为<%@ Page Language="C#" EnableViewState="false" %>
-
-- **一个控件**：设置控件.EnableViewState 属性。
+- **整个应用程序**：设置 web.config 文件中 <pages> 部分的 EnableViewState 属性。
+- **一个页面**：设置页面指令的 EnableViewState 属性为 <%@ Page Language="C#" EnableViewState="false" %>
+- **一个控件**：设置控件 .EnableViewState 属性。
 
 它通过使用视图状态对象，该对象是由被一组视图状态项目定义的 StateBag 类别定义的。该 StateBag 是一种数据结构，包含属性值对并被存储为与对象相关联的字符串。
 
 StateBag 类具有以下属性：
 
 |属性|描述|
-|----|:---|
+|:----|:---|
 |Item(name)|具有指定名称的视图状态的值，是 StateBag 的默认属性。|
 |Count|状态集合中的项目名称。|
 |Keys|集合中所有项目的密钥集合。|
@@ -42,7 +37,7 @@ StateBag 类具有以下属性：
 StateBag 类具有以下方法：
 
 |方法|描述|
-|----|:---|
+|:----|:---|
 |Add(name, value)|添加一个项目到视图状态集合，更新现有项目。|
 |Clear|移除集合中所有项目。|
 |Equals(Object)|确定指定的对象是否等于当前对象。|
@@ -141,14 +136,14 @@ public partial class _Default : System.Web.UI.Page
 
 会话状态通常用于存储应用程序数据，比如详细目录，供应商清单，客户记录或购物车。它可以存储用户的信息及其偏好信息，并保存用户未决定的路径。
 
-会话由 120 位的 SessionID 识别和跟踪，从客户端传递到服务器并且作为 cookie 或修改的URL回传。SessionID 是全球唯一的，随机的。
+会话由 120 位的 SessionID 识别和跟踪，从客户端传递到服务器并且作为 cookie 或修改的 URL 回传。SessionID 是全球唯一的，随机的。
 
 会话状态对象由 HttpSessionState 类创建，它定义会话状态项集合。
 
 HttpSessionState 类具有以下属性：
 
 |属性|描述|
-|----|:---|
+|:----|:---|
 |SessionID|唯一的会话标识符。|
 |Item(name)|具有指定名称的会话状态项的值，是 HttpSessionState 类的默认属性。|
 |Count|会话状态集合中项的数量。|
@@ -157,14 +152,14 @@ HttpSessionState 类具有以下属性：
 HttpSessionState 类有以下方法：
 
 |方法|描述|
-|----|:---|
+|:----|:---|
 |Add(name, value)|添加新的项到会话状态集合。|
 |Clear|移除会话状态集合中所有项。|
 |Remove(name)|移除会话状态集合中的指定项。|
 |RemoveAll|移除会话状态集合中所有密钥和值。|
 |RemoveAt|从会话状态集合中删除指定索引处的项。|
 
-会话状态对象是一个名值对，它可以从会话状态对象中存储和检索信息。同样地，您可以使用以下代码：
+会话状态对象是一个名 - 值对，它可以从会话状态对象中存储和检索信息。同样地，您可以使用以下代码：
 
 ```
 void StoreSessionInfo()
@@ -180,9 +175,9 @@ void RetrieveSessionInfo()
 }
 ```
 
-以上代码只存储在会话词典对象中的字符串，但是，它可以存储所有原始数据类型和由原始数据类型组成的阵列，DataSet, DataTable, HashTable, 和图像对像，以及继承 ISerializable 对象的任意用户定义的类。
+以上代码只存储在会话词典对象中的字符串，但是，它可以存储所有原始数据类型和由原始数据类型组成的阵列，DataSet, DataTable, HashTable, 和图像对象，以及继承 ISerializable 对象的任意用户定义的类。
 
-## 实例
+### 实例
 
 以下实例说明了存储会话状态的概念。在页面上有两个按钮：输入字符串的文本框按钮和显示从最后一个会话中存储的文本的标签按钮。
 标记文件代码如下所示：
@@ -310,14 +305,14 @@ ASP.NET 应用程序是在 Web 服务器上所有网页，代码和单个虚拟�
 HttpApplicationState 类具有以下属性：
 
 |属性|描述|
-|----|:---|
+|:----|:---|
 |Item(name)|具有指定名称的应用程序项的值，是 HttpApplicationState 的默认属性。|
 |Count|应用程序状态集合中项的数量。|
 
 HttpApplicationState 类具有以下方法：
 
 |方法|描述|
-|----|:---|
+|:----|:---|
 |Add(name, value)|添加新的项目到应用程序状态集合。
 |Clear|移除应用程序状态集合中的所有项。|
 |Remove(name)|移除应用程序状态集合中的指定项。|
@@ -329,13 +324,9 @@ HttpApplicationState 类具有以下方法：
 应用程序状态的数据通常是由为事件编写的处理程序维护：
 
 - 应用程序开启
-
 - 应用程序结束
-
 - 应用程序错误
-
 - 会话开始
-
 - 会话结束
 
 以下代码片段展示了用于存储应用程序状态信息的基本语法：
