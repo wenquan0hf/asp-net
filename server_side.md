@@ -198,7 +198,7 @@ HttpServerUtility 类的方法和属性通过由 ASP.NET 提供的内部服务�
 </html>
 ```
 
-Button1_Click 后的代码：
+Button1_Click 点击后的代码：
 
 ```
 protected void Button1_Click(object sender, EventArgs e) {
