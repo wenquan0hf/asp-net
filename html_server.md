@@ -2,7 +2,7 @@
 
 HTML 服务器控件主要是保证服务端运行的增强型标准 HTML 控件。HTML 控件不是由服务器处理，而是被发送到浏览器进行显示，比如页面标题标签，链接标签及输入元素。
 
-通过添加 runat= “server” 属性和一个 id 属性，它们可被特定地转化为一个服务器控件，应用于服务器端处理。
+通过添加 runat = “server” 属性和一个 id 属性，它们可被特定地转化为一个服务器控件，应用于服务器端处理。
 
 例如，HTML 输入控件：
 
@@ -21,34 +21,33 @@ HTML 服务器控件主要是保证服务端运行的增强型标准 HTML 控件
 尽管 ASP.NET 服务器控件可以完成 HTML 服务器控件执行的每一项工作，HTML 控件在以下情况仍然具有优势：
 
 - 使用静态表达到布局目的。
-
 - 转换一个 HTML 页面到 ASP.NET 下运行。
 
 下面这个表格介绍了 HTML 服务器控件：
 
-|控件名称|HTML标签|
-|--------|:-------|
-|HtmlHead|<\head>element|-->-->
-|HtmlInputButton|<\input type=button|submit|reset>|
-|HtmlInputCheckbox|<\input type=checkbox>|
-|HtmlInputFile|<\input type = file>|
-|HtmlInputHidden|<\input type = hidden>|
-|HtmlInputImage|<\input type = image>|
-|HtmlInputPassword|<\input type = password>|
-|HtmlInputRadioButton|<\input type = radio>|
-|HtmlInputReset|<\input type = reset>|
-|HtmlText|<\input type = text|password>|
-|HtmlImage|<\img>element|
-|HtmlLink|<\link>element|
-|HtmlAnchor|<\a>element|
-|HtmlButton|<\button>element|
-|HtmlButton|<\button>element|
-|HtmlForm|<\form>element|
-|HtmlTable|<\table>element|
-|HtmlTableCell|<\td> and <\th>|
-|HtmlTableRow|<\tr>element|
-|HtmlTitle|<\title>element|
-|HtmlSelect|<\select>element|
+|控件名称|HTML 标签|
+|:--------|:-------|
+|HtmlHead|\<head\>element|
+|HtmlInputButton|\<input type=button\|submit\|reset\>|
+|HtmlInputCheckbox|\<input type=checkbox\>|
+|HtmlInputFile|\<input type = file>|
+|HtmlInputHidden|\<input type = hidden>|
+|HtmlInputImage|\<input type = image>|
+|HtmlInputPassword|\<input type = password>|
+|HtmlInputRadioButton|\<input type = radio>|
+|HtmlInputReset|\<input type = reset>|
+|HtmlText|\<input type = text\|password>|
+|HtmlImage|\<img> element|
+|HtmlLink|\<link> element|
+|HtmlAnchor|\<a> element|
+|HtmlButton|\<button> element|
+|HtmlButton|\<button> element|
+|HtmlForm|\<form> element|
+|HtmlTable|\<table> element|
+|HtmlTableCell|\<td> and \<th>|
+|HtmlTableRow|\<tr> element|
+|HtmlTitle|\<title> element|
+|HtmlSelect|\<select&t; element|
 |HtmlGenericControl|未列出的所有 HTML 控件|
 
 ## 实例
