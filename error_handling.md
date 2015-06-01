@@ -216,7 +216,7 @@ Try-Catch 是一个 C# 编程结构。try 块持有任何可以或不可以产�
 
 为了给不同错误类型放置不同的自定义错误页面，<error>子标签被使用，那里不同的错误页面基于错误的 status 代码被指定。  
 
-为了实现页面级别的错误解决，Page 指令能被修改为：  
+为了实现页面级别的错误解决，Page 指令能被修改为： 
 
 ```
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs"
