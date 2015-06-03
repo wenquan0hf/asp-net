@@ -25,30 +25,101 @@ HTML 服务器控件主要是保证服务端运行的增强型标准 HTML 控件
 
 下面这个表格介绍了 HTML 服务器控件：
 
-|控件名称|HTML 标签|
-|:--------|:-------|
-|HtmlHead|\<head\>element|
-|HtmlInputButton|\<input type=button\|submit\|reset\>|
-|HtmlInputCheckbox|\<input type=checkbox\>|
-|HtmlInputFile|\<input type = file>|
-|HtmlInputHidden|\<input type = hidden>|
-|HtmlInputImage|\<input type = image>|
-|HtmlInputPassword|\<input type = password>|
-|HtmlInputRadioButton|\<input type = radio>|
-|HtmlInputReset|\<input type = reset>|
-|HtmlText|\<input type = text\|password>|
-|HtmlImage|\<img> element|
-|HtmlLink|\<link> element|
-|HtmlAnchor|\<a> element|
-|HtmlButton|\<button> element|
-|HtmlButton|\<button> element|
-|HtmlForm|\<form> element|
-|HtmlTable|\<table> element|
-|HtmlTableCell|\<td> and \<th>|
-|HtmlTableRow|\<tr> element|
-|HtmlTitle|\<title> element|
-|HtmlSelect|\<select&t; element|
-|HtmlGenericControl|未列出的所有 HTML 控件|
+<table>
+<tr>
+<th style="width:30%">控件名称</th>
+<th>HTML 标签</th>
+</tr>
+<tr>
+<td>HtmlHead </td>
+<td>&lt;head&gt;element</td>
+</tr>
+<tr>
+<td>HtmlInputButton</td>
+<td>&lt;input type=button|submit|reset&gt;</td>
+</tr>
+<tr>
+<td>HtmlInputCheckbox</td>
+<td>&lt;input type=checkbox&gt;</td>
+</tr>
+<tr>
+<td>HtmlInputFile</td>
+<td>&lt;input type = file&gt;</td>
+</tr>
+<tr>
+<td>HtmlInputHidden</td>
+<td>&lt;input type = hidden&gt;</td>
+</tr>
+<tr>
+<td>HtmlInputImage</td>
+<td>&lt;input type = image&gt;</td>
+</tr>
+<tr>
+<td>HtmlInputPassword</td>
+<td>&lt;input type = password&gt;</td>
+</tr>
+<tr>
+<td>HtmlInputRadioButton</td>
+<td>&lt;input type = radio&gt;</td>
+</tr>
+<tr>
+<td>HtmlInputReset</td>
+<td>&lt;input type = reset&gt;</td>
+</tr>
+<tr>
+<td>HtmlText</td>
+<td>&lt;input type = text|password&gt;</td>
+</tr>
+<tr>
+<td>HtmlImage</td>
+<td>&lt;img&gt; element</td>
+</tr>
+<tr>
+<td>HtmlLink</td>
+<td>&lt;link&gt; element</td>
+</tr>
+<tr>
+<td>HtmlAnchor</td>
+<td>&lt;a&gt; element</td>
+</tr>
+<tr>
+<td>HtmlButton</td>
+<td>&lt;button&gt; element</td>
+</tr>
+<tr>
+<td>HtmlButton</td>
+<td>&lt;button&gt; element</td>
+</tr>
+<tr>
+<td>HtmlForm</td>
+<td>&lt;form&gt; element</td>
+</tr>
+<tr>
+<td>HtmlTable</td>
+<td>&lt;table&gt; element</td>
+</tr>
+<tr>
+<td>HtmlTableCell</td>
+<td>&lt;td&gt; and &lt;th&gt;</td>
+</tr>
+<tr>
+<td>HtmlTableRow</td>
+<td>&lt;tr&gt; element</td>
+</tr>
+<tr>
+<td>HtmlTitle</td>
+<td>&lt;title&gt; element</td>
+</tr>
+<tr>
+<td>HtmlSelect</td>
+<td>&lt;select&t; element</td>
+</tr>
+<tr>
+<td>HtmlGenericControl</td>
+<td>未列出的所有 HTML 控件</td>
+</tr>
+</table>
+
 
 ## 实例
 

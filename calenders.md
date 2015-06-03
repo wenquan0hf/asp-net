@@ -48,7 +48,7 @@
 |Titlestyle|获取日期控件的标题的样式属性。|
 |TodayDayStyle|获取今天日期的样式属性。|
 |TodaysDate|获取或设置今天的日期的值。|
-|UseAccessibleHeader|获取或设置一个值，该值显示是否呈现表格标题 \<th> HTML 元素给日期标头而不是表格数据 \<td> HTML 元素。|
+|UseAccessibleHeader|获取或设置一个值，该值显示是否呈现表格标题  &lt;th&gt; HTML 元素给日期标头而不是表格数据 &lt;td&gt; HTML 元素。|
 |VisibleDate|获取或设置指定月的日期并显示。|
 |WeekendDayStyle|获取或设置周末日期的样式属性。|
 
