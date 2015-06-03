@@ -102,23 +102,23 @@ End Sub
 
 |控件|默认事件|
 |:---|:-------|
-|AdRotator|AdCreated|
-|BulletedList|	Click|
-|Button|	Click|
-|Calender|	SelectionChanged|
-|CheckBox	|CheckedChanged|
-|CheckBoxList|	SelectedIndexChanged|
-|DataGrid	|SelectedIndexChanged|
-|DataList	|SelectedIndexChanged|
-|DropDownList|	SelectedIndexChanged|
-|HyperLink|	Click|
-|ImageButton	|Click|
-|ImageMap	|Click|
-|LinkButton	|Click|
-|ListBox	|SelectedIndexChanged|
-|Menu	|MenuItemClick|
-|RadioButton|	CheckedChanged|
-|RadioButtonList|	SelectedIndexChanged|
+|广告控件（AdRotator）|AdCreated|
+|项目列表（BulletedList）|	Click|
+|按钮（Button）|	Click|
+|日历控件（Calender）|	SelectionChanged|
+|复选框（CheckBox）|CheckedChanged|
+|复选列表（CheckBoxList)|	SelectedIndexChanged|
+|数据表格（DataGrid）	|SelectedIndexChanged|
+|数据列表（DataList）	|SelectedIndexChanged|
+|下拉列表（DropDownList）|	SelectedIndexChanged|
+|超链接（HyperLink）|	Click|
+|图像按钮（ImageButton）	|Click|
+|热点（ImageMap）	|Click|
+|超链接按钮（LinkButton）	|Click|
+|单选或多选的下拉列表（ListBox	）|SelectedIndexChanged|
+|菜单（Menu）	|MenuItemClick|
+|单选按钮（RadioButton）|	CheckedChanged|
+|单选按钮组（RadioButtonList）|	SelectedIndexChanged|
 
 示例
 
