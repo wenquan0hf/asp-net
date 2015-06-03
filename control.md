@@ -1,4 +1,4 @@
-# ASP.NET - Ajax 控制
+# Ajax 控制
 
 AJAX 代表  Asynchronous JavaScript and XML。这是一项跨平台的能加速响应时间的技术。AJAX 服务器控件将脚本添加到页面，它由浏览器执行并处理。  
 

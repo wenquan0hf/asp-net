@@ -1,7 +1,7 @@
 {
     "name": "ASP.NET 中文指南",
-    "introduction": "AWK 是一种优良的文本处理工具，Linux及Unix环境中现有的功能最强大的数据处理引擎之一。",
-    "title": "为数据处理而生的语言 - 极客学院 Wiki",
-    "keywords": "AWK 中文指南,AWK 应用案例",
-    "description": "AWK 是 Unix/Linux 提供的样式扫描与处理工具，非常擅长处理结构化数据和生成表单。"
+    "introduction": "ASP.NET 是一个开发框架，用于通过 HTML、CSS、JavaScript 以及服务器脚本来构建网页和网站。",
+    "title": "网页应用程序框架 - 极客学院 Wiki",
+    "keywords": "HTML,AJAX,Web,C#",
+    "description": "ASP.NET 是一个统一的 Web 开发平台，它提供开发人员创建企业级 Web 应用程序所需的服务。本书详细的介绍了关于 ASP.NET 这门编程语言的基础知识及在 Web 开发中的一些应用。"
 }

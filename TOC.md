@@ -1,38 +1,35 @@
-- [ASP.NET - Introduction](introduction.md)  赵洁 -- 校对完成
-- [ASP.NET - Environment](environment_setup.md)  赵洁 -- 校对完成
-- [ASP.NET - Life Cycle](life_cycle.md)  赵洁 -- 校对完成
-- [ASP.NET - First Example](first_example.md)  赵洁 -- 校对完成
-- [ASP.NET - Event Handling](event_handling.md)  周思宇 -- 校对完成
-- [ASP.NET - Server Side](server_side.md)  周思宇 -- 校对完成
-- [ASP.NET - Server Controls](server_controls.md)  周思宇 -- 校对完成
-- [ASP.NET - HTML Server](html_server.md)  周思宇 -- 校对完成
-- [ASP.NET - Client Side](client_side.md)  王鑫 -- 校对完成
-- [ASP.NET - Basic Controls](basic_controls.md)  王鑫 -- 校对完成
-- [ASP.NET - Directives](directives.md)  王鑫 -- 校对完成
-- [ASP.NET - Managing State](managing_state.md)  王鑫 -- 校对完成
-- [ASP.NET - Validators](validators.md) 苗帅 -- 校对完成
-- [ASP.NET - Database Access](database_access.md) 苗帅 -- 校对完成
-- [ASP.NET - ADO.net](ado_net.md) 苗帅 -- 校对完成
-- [ASP.NET - File Uploading](file_uploading.md) 苗帅 -- 校对完成
-- [ASP.NET - Ad Rotator](ad_rotator.md) 牛子健 -- 校对完成
-- [ASP.NET - Calendars](calenders.md) 牛子健 -- 校对完成
-- [ASP.NET - Multi Views](multi_views.md) 牛子健 -- 校对完成
-- [ASP.NET - Panel Controls](panel_controls.md) 牛子健 -- 校对完成
-- [ASP.NET - AJAX Control](control.md) 黄偲琪 -- 校对完成
-- [ASP.NET - Data Sources](data_sources.md) 黄偲琪-- 校对完成
-- [ASP.NET - Data Binding](data_binding.md) 黄偲琪 -- 校对完成
-- [ASP.NET - Custom Controls](custom_controls.md) 黄偲琪 -- 校对完成
-- [ASP.NET - Personalization](personalization.md) 黄偲琪 -- 校对完成
-- [ASP.NET - Error Handling](error_handling.md) 黄偲琪 -- 校对完成
-- [ASP.NET - Debugging](debugging.md) 于洋 -- 校对完成
-- [ASP.NET - LINQ](linq.md) 于洋 -- 校对完成
-- [ASP.NET - Security](security.md) 于洋 -- 校对完成
-- [ASP.NET - Data Caching](data_caching.md) 于洋 -- 校对完成
-- [ASP.NET - Web Services](web_services.md) 于倩 -- 校对完成
-- [ASP.NET - Multi Threading](multi_threading.md) 于倩 -- 校对完成
-- [ASP.NET - Configuration](configuration.md) 于倩 -- 校对完成
-- [ASP.NET - Deployment](deployment.md)  于倩 -- 校对完成
+- [简介](introduction.md)  
+- [环境设置](environment_setup.md)
+- [生命周期](life_cycle.md) 
+- [首例](first_example.md) 
+- [事件处理](event_handling.md)  
+- [服务器端](server_side.md)  
+- [服务器控件](server_controls.md)  
+- [HTML 服务器](html_server.md)  
+- [客户端](client_side.md) 
+- [基础控件](basic_controls.md)  
+- [指令](directives.md)  
+- [管理状态](managing_state.md)  
+- [验证器](validators.md) 
+- [数据库存取](database_access.md) 
+- [ADO.NET](ado_net.md) 
+- [文件上传](file_uploading.md) 
+- [广告轮转器](ad_rotator.md) 
+- [日历](calenders.md) 
+- [多视图](multi_views.md) 
+- [Panel 控件](panel_controls.md) 
+- [Ajax 控制](control.md) 
+- [数据源](data_sources.md) 
+- [数据绑定](data_binding.md)
+- [自定义控件](custom_controls.md) 
+- [个性化](personalization.md) 
+- [异常处理](error_handling.md)
+- [调试](debugging.md) 
+- [语言集成查询](linq.md)
+- [安全性](security.md) 
+- [数据缓存](data_caching.md) 
+- [Web 服务](web_services.md) 
+- [多线程](multi_threading.md) 
+- [配置](configuration.md) 
+- [部署](deployment.md)  
  
-## 原文地址
-
-[http://www.tutorialspoint.com/asp.net/index.htm](http://www.tutorialspoint.com/asp.net/index.htm)
